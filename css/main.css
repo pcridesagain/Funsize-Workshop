@@ -28,6 +28,15 @@ p{
     padding-bottom: 1em;
 }
 
+a{
+    color: #111;
+    font-weight: 900;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
 p.logo1{
     font-size: 22px;
     font-weight: 900;
@@ -61,7 +70,7 @@ p.logo2{
     background-image: url(../bg.jpg);
     background-position: center center;
     background-repeat:  no-repeat;
-    background-attachment: fixed;
+    background-attachment: absolute;
     background-size:  cover;
     background-color: #000;
     margin-top: 16px;
@@ -153,6 +162,7 @@ p.col-right{
 .link:hover{
     background-color: #111; 
     color: #fff;
+    text-decoration: none;
 }
 
 .about{
@@ -180,6 +190,10 @@ p.col-right{
 
 .clear{
     clear: both;
+}
+
+.caps{
+    text-transform: uppercase;
 }
 
 .blk{
