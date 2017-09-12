@@ -216,6 +216,13 @@ p.col-right{
     text-align: right;
 }
 
+.not-active {
+   pointer-events: none;
+   cursor: default;
+   border: 2px solid #aaa;
+    color: #aaa;
+}
+
 
 
 
